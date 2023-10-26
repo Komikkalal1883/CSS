@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border In CSS</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        h1{
+            background-color: teal;
+            color: khaki;
+            text-align: center;
+            border: 10px solid blueviolet;
+            border-style: dashed;
+        }
+        .box{
+            background: url(../Image/download.jpeg)no-repeat center center/cover;
+            width: 400px;
+            height: 400px;
+            background-clip: padding-box;
+            margin: 30px auto;
+            border: 10px solid brown;
+            border: 10px double brown;
+            border: 10px dashed brown;
+            border: 10px dotted brown;
+            border: 10px ridge brown;
+            border: 10px inset brown;
+            border: 10px groove brown ;
+            border: 10px outset rgb(140, 9, 240) ;
+            border-radius: 50px;
+            border-radius: 50%;
+            outline: 10px solid rgb(255, 0, 230);
+            text-align: center;
+            padding-top: 20px;
+            color: aqua;
+            border-style: dotted;
+        }
+        .box-img{
+            width: 500px;
+            height: 500px;
+            margin: 30px auto;
+            border: 50px solid;
+            border-image: url(.././Image/natureimage.jpg) 10;
+            outline: 10px solid orangered;
+            background-color: yellow;
+            text-align: center;
+            padding: 100px;
+        }
+        .Abox{
+            /* width: 500px;
+            height: 500px; */
+            border: 10px solid;
+            margin: 30px auto;
+            text-align: center;
+            padding-top: 250px;
+            box-sizing: content-box;
+            background-color: aqua;
+            border-style: double;
+        }
+        .Bbox{
+            width: 400px;
+            height: 400px;
+            margin: 30px auto;
+            border-bottom: 30px rgb(136, 8, 241) solid;
+            border-top: 30px rgb(136, 201, 32) solid;
+            border-left: 30px rgb(63, 37, 180) solid;
+            border-right: 30px rgb(226, 16, 86) solid;
+            text-align: center;
+            border-style: groove;
+        }
+        .Cbox{ 
+              width: 300px;
+              height: 300px;
+              border: 10px solid;
+              margin: 30px auto;
+              border-top: 10px solid darkblue;
+              border-left: 10px solid brown;
+              border-bottom: 10px solid violet;
+              border-right: 10px solid seagreen;
+              border-radius: 50%;
+              text-align: center;
+              padding-top: 50px;
+              border-style:inset;
+              background-color: blueviolet;
+        }
+        .Dbox{
+              width: 400px;
+              height: 400px;
+              border: 50px dashed;
+              margin: 30px auto;
+              border-style: outset;
+              border-color: brown;
+              background-color: aquamarine;
+              border-bottom-color: chartreuse;
+              border-image: url(../Image/3download.jpeg) 10;
+              text-align: center;
+              padding-top: 100px;
+        }
+        .Ebox{
+            width: 300px;
+            height: 300px;
+            border: 10px solid;
+            margin: 30px auto;
+            mask-border:inherit;
+            /* -webkit-border-image: ; */
+            border-radius: 40%;
+            border-block-start-width: 40px;
+            border-block-color: red;
+            border-block-end-width: 40px;
+            text-align: center;
+            padding-top: 50px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Border In CSS</h1>
+    <div class="box">background-image</div>
+    <hr>
+    <div class="box-img">  Border-box</div>
+    <hr>
+    <div class="Abox">box-sizing : content-box</div>
+    <hr>
+    <div class="Bbox">border-bottom <br>  <br> border-left <br> <br> border-right  <br><br> border-top</div>
+    <hr>
+    <div class="Cbox">Border-Radius</div>
+    <hr>
+    <div class="Dbox">border-image</div>
+    <hr>
+    <div class="Ebox">border-block-start-width <br> border-block-end-width</div>
+
+</body>
+</html>

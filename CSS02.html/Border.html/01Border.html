@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .COntainer{
+            display: flex;
+            gap: 10px;
+        }
+        .dotted{
+            height: 200px;
+            width: 200px;
+            border: 10px dotted;
+        }
+        .dashed{
+            height: 200px;
+            width: 200px;
+            border: 10px dashed;
+        }
+        .Border-inset{
+            height: 200px;
+            width: 200px;
+            border: 10px inset blue;
+            /* border: 10px inherit black; */
+            background: url(../image/7download.jpeg) no-repeat center center/cover;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="COntainer">
+    <div class="dotted"></div>
+    <div class="dashed"></div>
+    <div class="Border-inset"></div>
+    <div class="Box4"></div>
+    </div>
+
+</body>
+</html>

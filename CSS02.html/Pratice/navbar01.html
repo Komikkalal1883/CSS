@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar01</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+        color: black;
+      }
+      .Container {
+        background-color: cornflowerblue;
+      }
+      #img01 {
+        height: 130px;
+        width: 130px;
+      }
+      .Content {
+        display: flex;
+        justify-content: space-between;
+      }
+      .navbar {
+        display: flex;
+        align-items: center;
+        width: 50%;
+        justify-content: space-evenly;
+      }
+      .navbar01 {
+        display: none;
+      }
+      @media (max-width: 576px) {
+        body {
+          background-color: burlywood;
+        }
+        .navbar {
+          display: none;
+        }
+        .navbar01 {
+          display: inline;
+          position: absolute;
+        }
+        .navbar01 {
+          position: absolute;
+          top: 50px;
+          right: 90px;
+        }
+        .menu {
+          display: flex;
+          flex-direction: column;
+          padding-top: 100px;
+          align-items: center;
+          padding-right: 0px;
+        }
+        a {
+          font-size: 20px;
+          padding: 15px;
+        }
+        a:hover {
+          color: white;
+        }
+        summary {
+          position: absolute;
+          top: 7px;
+          right: 10px;
+          list-style: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Container">
+      <div class="Content">
+        <div>
+          <img
+            id="img01"
+            src="../Task/image/kjjof1bz2rcrslndqwpm.webp"
+            alt=""
+          />
+        </div>
+        <ul class="navbar">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">PROMO</a></li>
+          <li><a href="#">PRODUCT</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </div>
+      <div class="navbar01">
+        <details>
+          <summary>☰</summary>
+          <div class="menu">
+            <a href="#">HOME</a>
+            <a href="#">PROMO</a>
+            <a href="#">PRODUCT</a>
+            <a href="#">CONTACT</a>
+          </div>
+        </details>
+      </div>
+    </div>
+  </body>
+</html>

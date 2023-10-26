@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>position in CSS</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .fixed {
+        background-color: black;
+        position: fixed;
+        color: aliceblue;
+        font-size: 60px;
+        top: 0;
+        right: 0;
+      }
+      div[class*="box"] {
+        height: 500px;
+        width: 100%;
+        border: 1px solid red;
+      }
+      .sticky {
+        background-color: rebeccapurple;
+        font-size: 30px;
+        position: sticky;
+      }
+      .absolute{
+        font-size: 30px;
+        background-color: rgb(42, 119, 119);
+      }
+      .relative{
+        position: relative;
+        background-color: brown;
+        top: 50px;
+        right: 0;
+        font-size: 30px;
+      }
+      .box-5 {
+        width: 100%;
+        border: 1px solid red;
+        position: relative;
+
+      }
+      div[class*="ab"]{
+        height: 300px;
+        width: 300px;
+        border: 1px solid black;
+        position: absolute;
+      }
+      .box-ab-1{
+        background-color: aquamarine;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+      }
+      .box-ab-2{
+        background-color: blueviolet;
+        top: 30px;
+        right: 0;
+      }
+      .box-ab-3{
+        background-color: chartreuse;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+      }
+      .box-ab-4{
+        background-color: chocolate;
+        top: 0;
+        left: 0;
+        z-index: 2;
+      }
+      .box-ab-5{
+        background-color: coral;
+        top: 50px;
+        left: 50px;
+        z-index: 3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box-1">
+      box-1
+      <div class="fixed">fixed</div>
+    </div>
+    <hr />
+    <div class="box-2">box-2
+      <div class="absolute">absolute</div>
+      <div class="relative">relative</div>
+    </div>
+    <hr />
+    <div class="box-3">
+      box-3
+      <div class="sticky">sticky</div>
+    </div>
+    <hr />
+    <div class="box-4">box-4</div>
+    <hr />
+    <div class="box-5">
+      <div class="box-ab-1">box-ab1</div>
+      <div class="box-ab-2">box-ab2</div>
+      <div class="box-ab-3">box-ab3</div>
+      <div class="box-ab-4">box-ab4</div>
+      <div class="box-ab-5">box-ab5</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  height: 103px;
+  background-color: #303030;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+button:hover {
+  background-color: #ffffff;
+}
+a:hover {
+  font-size: 15px;
+  color: #e8631c;
+}
+li {
+  list-style-type: none;
+}
+a {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Oswald";
+  text-decoration: none;
+}
+.Main {
+  width: 100%;
+  height: 100%;
+  background: url(./image/backgroundimage.png) no-repeat center center/cover;
+}
+.Box1 {
+  font-size: 125px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Oswald";
+  padding-left: 75px;
+}
+.text {
+  padding-bottom: 250px;
+}
+.Box2 {
+  height: 210px;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Montserrat";
+  margin-left: 75px;
+}
+.Box3 {
+  padding-left: 75px;
+}
+.Box3 :hover {
+  color: #000;
+}
+.Box3-1 {
+  padding-bottom: 2%;
+}
+.Box4 {
+  width: 322px;
+  height: 65px;
+  border-radius: 4px;
+  background-color: #e8631c;
+  font-size: 29px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Oswald";
+  text-align: center;
+}
+.Container01 {
+  height: 974px;
+  background-color: #e8631c;
+}
+.Box5 {
+  font-size: 75px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Oswald";
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 100px;
+}
+.Box015 {
+  height: 210px;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+  padding: 25px;
+}
+.Content01 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 70px;
+}
+.Box01-A {
+  width: 372px;
+  height: 493px;
+  background-color: #303030;
+}
+.Box01-AA-fff {
+  font-size: 37px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Oswald";
+  text-align: center;
+  padding: 10px;
+}
+.Box01-AAA {
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+}
+.Box01-AB-fff {
+  font-size: 37px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Oswald";
+  text-align: center;
+  padding: 10px;
+}
+.Box01-ABB {
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+}
+.Box01-B {
+  width: 372px;
+  height: 493px;
+  background-color: #303030;
+}
+.Box01-C {
+  width: 372px;
+  height: 493px;
+  background-color: #303030;
+}
+.Box01-AC-fff {
+  font-size: 37px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Oswald";
+  text-align: center;
+  padding: 10px;
+}
+.Box01-ACC {
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+}
+.Container02 {
+  height: 974px;
+  background-color: #303030;
+}
+.box-02A {
+  font-size: 75px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Oswald";
+  text-align: center;
+  padding: 50px;
+}
+.box-02B {
+  height: 210px;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+}
+.content02 {
+  display: flex;
+  justify-content: space-around;
+}
+.box-02C {
+  width: 372px;
+  height: 493px;
+  border-radius: 8px;
+  background-color: #e8631c;
+}
+.box-02D {
+  padding: 50px 130px 0px;
+}
+.box-03E {
+  font-size: 37px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Oswald";
+  text-align: center;
+  padding: 40px;
+}
+.box-02F {
+  height: 119px;
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+}
+button {
+  width: 322px;
+  height: 65px;
+  border-radius: 4px;
+  background-color: #303030;
+}
+.box-02G {
+  text-align: center;
+}
+.Container03 {
+  background-color: #e8631c;
+}
+.Content03 {
+  display: flex;
+  justify-content: space-between;
+
+}
+.box-03a {
+  height: 975px;
+  width: 692px;
+  text-align: center;
+}
+.box-03c {
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Oswald";
+  text-align: center;
+  padding-top: 300px;
+  padding-right: 70px;
+  align-items: center;
+}
+.box-03d {
+  height: 210px;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Montserrat";
+  padding: 30px;
+  align-items: center;
+  text-align: center;
+}
+.box-03e {
+  font-size: 29px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Oswald";
+  width: 322px;
+  height: 65px;
+  border-radius: 4px;
+  background-color: #303030;
+}
+.box03-g{
+  padding-left: 120px;
+}
+.box-03e:hover {
+  background-color: #303030;
+  color: #e8631c;
+}

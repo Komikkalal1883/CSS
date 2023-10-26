@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Psuduo element</title>
+  <style>
+    h1{
+      background-color:darkseagreen;
+      color: crimson;
+      font-size: 50px;
+    }
+    h1::before{
+      content: "{}";
+    }
+    h1::after{
+      content: " ~";
+    }
+    p::first-line{
+      color: cornflowerblue;
+      font-size: 50px;
+    }
+    p::first-letter{
+      font-size: 100px;
+      color: crimson;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>psoduo element</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe repellendus, perferendis quaerat sed quia esse, unde labore recusandae officiis nostrum velit natus minus expedita iusto aliquid odio quidem omnis voluptatum.</p>
+</body>
+</html>

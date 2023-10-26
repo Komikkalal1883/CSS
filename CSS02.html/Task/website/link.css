@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a,li {
+  list-style: none;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Montserrat";
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 85px;
+    background-color: #21243d;
+}
+summary {
+  list-style: none;
+  cursor: pointer;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+.navbar02{
+    display: none;
+}

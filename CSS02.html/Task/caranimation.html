@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Animation</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      img {
+        height: 300px;
+        width: 350px;
+        animation-name: hello;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        margin: 0 auto;
+      }
+      @keyframes hello {
+        0% {
+            margin-left: 0px;
+            
+        }
+        20% {
+            /* margin-left: 200px; */
+        }
+         40% {
+          /* margin-left: 400px; */
+
+        } 
+        60% {
+            /* margin-left: 600px; */
+        }
+        80% {
+          /* margin-left: 800px; */
+        }
+        90%{
+          margin-left: 900px;
+          animation-timing-function: ease-in;
+        }
+        100% {
+         
+        } 
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <img src="./image/—Pngtree—super red _3741361.png" alt="" />
+      </div>
+    </div>
+  </body>
+</html>

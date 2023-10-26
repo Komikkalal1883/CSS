@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>navbar</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .Container {
+        background-color: brown;
+      }
+      .Content {
+        display: flex;
+        justify-content: space-between;
+      }
+      img {
+        height: 120px;
+        width: 120px;
+      }
+      .main,
+      a {
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+      }
+      .menu,
+      .navbar {
+        display: none;
+      }
+      @media (max-width: 768px) {
+        body {
+          background-color: cornflowerblue;
+        }
+        .main a {
+          display: none;
+        }
+        .menu {
+          display: inline;
+        }
+        .menu:hover {
+          outline: 3px solid blueviolet;
+          outline-offset: 9px;
+        }
+        .navbar {
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          /* border: 10px solid black; */
+          /* width: 150px; */
+          align-items: center;
+        }
+        .navbar {
+          position: absolute;
+          right: 0;
+          top: 150px;
+        }
+        .navbar a {
+          padding: 15px;
+          font-size: 25px;
+        }
+        .navbar a:hover {
+          color: black;
+        }
+        summary {
+          font-size: 25px;
+          position: absolute;
+          top: 50px;
+          right: 40px;
+          list-style: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Container">
+      <div class="Content">
+        <div>
+          <img src="./image/kjjof1bz2rcrslndqwpm.webp" alt="" />
+        </div>
+        <div class="main">
+          <a href="#">HOME</a>
+          <a href="#">PROMO</a>
+          <a href="#">PRODUCT</a>
+          <a href="#">ABOUT</a>
+          <a href="#">CONTACT</a>
+        </div>
+      </div>
+      <div class="menu">
+        <details>
+          <summary>☰</summary>
+          <div class="navbar">
+            <a href="#">HOME</a>
+            <a href="#">PROMO</a>
+            <a href="#">PRODUCT</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACT</a>
+          </div>
+        </details>
+      </div>
+    </div>
+  </body>
+</html>

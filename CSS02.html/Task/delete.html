@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Relative Absolute</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: crimson;
+            color: aliceblue;
+            /* border: 1px solid white; */
+        }
+        .container{
+            width: 90%;
+            margin: 0 auto;
+            border: 1px solid red;
+        }
+        .row{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+        }
+        .col-50{
+            width: 50%;
+            position: relative;
+        }
+        img{
+            width: 100%;
+        }
+        .main-text{
+            text-align: center;
+            margin: 50px 0px 100px;
+        }
+        h1{
+            font-size: 50px;
+        }
+        p{
+            font-size: 30px;
+        }
+        .offer{
+            width: 150px;
+            position: absolute;
+            top: -60px;
+            right: -20px;
+        }
+
+
+
+
+        /* Media Query  */
+
+
+
+        @media (max-width: 576px) { 
+            .main-text{
+                margin-bottom: 50px;
+            }
+            .row{
+                flex-direction: column;
+            }
+
+         }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main-text">
+            <h1>Garba</h1>
+            <p>Let's Play Garba</p>
+        </div>
+        <div class="row">
+            <div class="col-50">
+                <img src="../../Image/banner1.jpg" alt="">
+            </div>
+            <div class="col-50">
+                <img src="../../Image/banner2.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

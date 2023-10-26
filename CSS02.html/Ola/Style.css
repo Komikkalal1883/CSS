@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Container-komik{
+    height: 600px;
+}
+.Box-01B{
+    display: flex;
+    text-align: center;
+    padding-left: 340px;
+    gap: 90px;
+}
+.Box-01A{
+    text-align: center;
+    margin: 50px auto;
+    color: black;
+    text-shadow: 1.152px 1.152px 0 #fff, 1.728px 1.728px 0 #92c83e;
+    font-size: 48px;
+    font-family: sans-serif;
+}
+.Box-01D{
+    
+    font-size: 40px;
+}
+.Box-01F{
+    font-size: 28px;
+}
+.Box-01G{
+    font-size: 16px;
+}
+.Footer{
+    height: 350px;
+}

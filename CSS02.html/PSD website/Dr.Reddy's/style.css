@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image01{
+    padding: 20px;
+    height: 620px;
+}
+.col{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+p{
+    font-size: 20px;
+    padding-top: 80px;
+}
+.image02{
+    width: 100%;
+    height: 550px;
+}
